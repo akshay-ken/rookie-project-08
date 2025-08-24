@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+    --color-Soft-orange: hsl(35, 77%, 62%);
+    --color-Soft-red: hsl(5, 85%, 63%);
+}
