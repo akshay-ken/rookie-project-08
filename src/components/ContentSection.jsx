@@ -1,3 +1,5 @@
+import imgMobile from "../assets/images/image-web-3-mobile.jpg";
+import imgDesktop from "../assets/images/image-web-3-desktop.jpg";
 export function ContentSection() {
   return (
     <section className="mt-6 md:mt-12">
