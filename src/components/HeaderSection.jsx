@@ -5,7 +5,7 @@ export function HeaderSection() {
     <header className="flex flex-row justify-between items-center">
       <img src={logo} alt="" />
       <nav>
-        <img src={hbMenu} alt="" />
+        <img src={hbMenu} className="block md:hidden" alt="" />
       </nav>
     </header>
   );
