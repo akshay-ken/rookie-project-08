@@ -1,7 +1,10 @@
+import logo from "../assets/images/logo.svg";
 export function HeaderSection() {
   return (
     <header>
-      <nav></nav>
+      <nav>
+        <img src={logo} alt="" />
+      </nav>
     </header>
   );
 }
