@@ -2,11 +2,11 @@ import logo from "../assets/images/logo.svg";
 import hbMenu from "../assets/images/icon-menu.svg";
 export function HeaderSection() {
   return (
-    <header className="flex flex-row justify-between items-center">
+    <header className="flex flex-row justify-between items-center ">
       <img src={logo} alt="" />
       <nav>
         <img src={hbMenu} className="block md:hidden" alt="" />
-        <ul className="md:block hidden">
+        <ul className="hidden md:flex md:flex-row md:p-2 md:gap-x-8">
           <li>Home</li>
           <li>New</li>
           <li>Popular</li>
