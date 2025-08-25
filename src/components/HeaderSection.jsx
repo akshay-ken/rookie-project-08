@@ -6,7 +6,7 @@ export function HeaderSection() {
       <img src={logo} alt="" />
       <nav>
         <img src={hbMenu} className="block md:hidden" alt="" />
-        <ul className="hidden md:flex md:flex-row md:p-2 md:gap-x-8">
+        <ul className="hidden md:flex md:flex-row md:p-2 md:gap-x-8 text-xl text-Dark-grayish-blue">
           <li>Home</li>
           <li>New</li>
           <li>Popular</li>
