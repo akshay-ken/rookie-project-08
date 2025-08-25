@@ -1,7 +1,7 @@
 export function MainPage() {
   return (
     <main>
-      <div></div>
+      <MainPage />
     </main>
   );
 }
