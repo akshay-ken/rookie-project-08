@@ -2,7 +2,7 @@ import logo from "../assets/images/logo.svg";
 import hbMenu from "../assets/images/icon-menu.svg";
 export function HeaderSection() {
   return (
-    <header>
+    <header className="flex flex-row justify-between items-center">
       <img src={logo} alt="" />
       <nav>
         <img src={hbMenu} alt="" />
