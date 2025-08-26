@@ -9,8 +9,39 @@ export function ContentSection() {
           <img src={imgMobile} className="md:hidden" alt="" />
           <img src={imgDesktop} className="hidden md:block" alt="" />
         </div>
-        {/* New section */}
-        <div className="bg-rose-600 p-2 row-span-2  order-4 md:order-2">02</div>
+
+        <div className="row-span-2 px-4 py-6 md:px-6 md:py-8 flex flex-col items-start h-fit gap-y-6 justify-around bg-Very-dark-blue order-4 md:order-2">
+          {/* New section */}
+          <p className="text-3xl font-semibold text-Soft-orange">New</p>
+          <div>
+            <p className="text-xl font-semibold text-Off-white mb-2">
+              Hydrogen VS Electric Cars
+            </p>
+            <p className="text-Grayish-blue text-lg font-normal">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <hr className=" text-Grayish-blue w-full" />
+          <div>
+            <p className="text-xl font-semibold text-Off-white mb-2">
+              The Downsides of AI Artistry
+            </p>
+            <p className="text-Grayish-blue text-lg font-normal">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <hr className=" text-Grayish-blue w-full" />
+          <div>
+            <p className="text-xl font-semibold text-Off-white mb-2">
+              Is VC Funding Drying Up?
+            </p>
+            <p className="text-Grayish-blue text-lg font-normal">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
         <div className="text-left md:text-7xl text-5xl tracking-wide font-extrabold text-Very-dark-blue order-2 md:order-3">
           The Bright Future of Web 3.0?
         </div>
