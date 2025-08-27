@@ -3,7 +3,7 @@ import keyImg from "../assets/images/image-top-laptops.jpg";
 import gamepadImg from "../assets/images/image-gaming-growth.jpg";
 export function FooterSection() {
   return (
-    <footer className="flex flex-col gap-10 md:flex-row mt-12 md:mt-0">
+    <footer className="flex flex-col gap-10 md:flex-row mt-12 md:-mt-22">
       <div className="flex flex-row gap-6 md:basis-1/3">
         <img src={pcImg} className="w-28" alt="" />
         <div className="flex flex-col justify-around">
