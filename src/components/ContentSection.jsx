@@ -10,7 +10,7 @@ export function ContentSection() {
           <img src={imgDesktop} className="hidden md:block" alt="" />
         </div>
 
-        <div className="row-span-2 px-4 py-6 md:px-6 md:py-8 flex flex-col items-start h-fit gap-y-6 justify-around bg-Very-dark-blue order-4 md:order-2">
+        <div className="row-span-2 mt-12 md:mt-0 px-4 py-6 md:px-6 md:py-8 flex flex-col items-start h-fit gap-y-6 justify-around bg-Very-dark-blue order-4 md:order-2">
           {/* New section */}
           <p className="text-3xl font-semibold text-Soft-orange">New</p>
           <div>
