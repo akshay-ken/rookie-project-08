@@ -43,3 +43,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [React](https://reactjs.org/) - JS library
 
 ### Challenges
+
+> Problem: footer component touching the bottom edge of the screen.
+
+- **solution**:- i checked computed values in my dev tool for that element and it showed both values are applied the issue is 2xl value is really small and full value is really big in e so i used custom rem value for it and it solved my issue;
