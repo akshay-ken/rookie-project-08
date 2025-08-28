@@ -1,6 +1,7 @@
 import logo from "../assets/images/logo.svg";
 import hbMenu from "../assets/images/icon-menu.svg";
 import { useState } from "react";
+import { MobileMenu } from "./MobileMenu";
 export function HeaderSection() {
   const [drawerIsOpen, setDrawerIsOpen] = useState(false);
   function handleOpenDrawer() {
@@ -19,7 +20,7 @@ export function HeaderSection() {
           alt=""
           onClick={handleOpenDrawer}
         />
-        {drawerIsOpen && null}
+        {drawerIsOpen && <MobileMenu />}
         <ul className="hidden md:flex md:flex-row md:p-2 md:gap-x-8 text-xl text-Dark-grayish-blue">
           <li>Home</li>
           <li>New</li>
