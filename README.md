@@ -46,4 +46,4 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 > Problem: footer component touching the bottom edge of the screen.
 
-- **solution**:- i checked computed values in my dev tool for that element and it showed both values are applied the issue is 2xl value is really small and full value is really big in e so i used custom rem value for it and it solved my issue;
+- **solution**:- i added padding bottom on last children of footer component for mobile view and make it zero on desktop view.
