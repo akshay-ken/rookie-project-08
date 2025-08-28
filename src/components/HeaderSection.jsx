@@ -20,7 +20,7 @@ export function HeaderSection() {
           alt=""
           onClick={handleOpenDrawer}
         />
-        {drawerIsOpen && <MobileMenu />}
+        {drawerIsOpen && <MobileMenu onClose={handleCloseDrawer} />}
         <ul className="hidden md:flex md:flex-row md:p-2 md:gap-x-8 text-xl text-Dark-grayish-blue">
           <li>Home</li>
           <li>New</li>
