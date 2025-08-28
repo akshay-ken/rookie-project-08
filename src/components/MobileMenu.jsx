@@ -1,8 +1,10 @@
+import { createPortal } from "react-dom";
 export function MobileMenu({ onClose }) {
-  return (
+  return createPortal(
     <div onClick={onClose}>
       <div></div>
       <ul></ul>
-    </div>
+    </div>,
+    document.getElementById("menu")
   );
 }
