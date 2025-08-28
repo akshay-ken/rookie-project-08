@@ -47,3 +47,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 > Problem: footer component touching the bottom edge of the screen.
 
 - **solution**:- i added padding bottom on last children of footer component for mobile view and make it zero on desktop view.
+
+> Problem: clicking on child div closes the menu.
+
+- **solution**:- i used portal to create menu for mobile view and used onclick prop to close menu but used it on parent so its div child also behaving same so i used stop stopPropagation on onclick event of child div.
