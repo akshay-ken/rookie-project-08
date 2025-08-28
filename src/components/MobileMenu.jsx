@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { createPortal } from "react-dom";
+import closeIcon from "../assets/images/icon-menu-close.svg";
 export function MobileMenu({ onClose }) {
   useEffect(() => {
     document.body.style.overflow = "hidden";
@@ -14,12 +15,14 @@ export function MobileMenu({ onClose }) {
       className="h-screen fixed inset-0 bg-Dark-grayish-blue/40 bg-blend-overlay w-full"
     >
       <div
-        className="w-2/3 bg-Off-white absolute inset-y-0 right-0"
+        className="w-2/3 bg-Off-white absolute inset-y-0 right-0 p-8"
         onClick={(e) => e.stopPropagation()}
       >
-        test
+        <div className="flex flex-row h-fit justify-end">
+          <img src={closeIcon} onClick={onClose} alt="" />
+        </div>
+        <ul></ul>
       </div>
-      <ul></ul>
     </div>,
     document.getElementById("menu")
   );
