@@ -51,3 +51,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 > Problem: clicking on child div closes the menu.
 
 - **solution**:- i used portal to create menu for mobile view and used onclick prop to close menu but used it on parent so its div child also behaving same so i used stop stopPropagation on onclick event of child div.
+
+> Problem: having scroll effect when menu modal was open i wanted to disable scroll when menu is open
+
+- **solution**:- i used useEffect hook to set overflow style when modal is open or close to disable scrolling.
