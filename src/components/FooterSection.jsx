@@ -29,7 +29,7 @@ export function FooterSection() {
         </div>
       </div>
 
-      <div className="flex flex-row gap-6 md:basis-1/3">
+      <div className="flex flex-row gap-6 md:basis-1/3 pb-12 md:pb-0">
         <img src={gamepadImg} className="w-28" alt="" />
         <div className="flex flex-col justify-around">
           <p className="text-2xl font-extrabold text-Soft-red">03</p>
