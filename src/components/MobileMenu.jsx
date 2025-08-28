@@ -1,5 +1,13 @@
+import { useEffect } from "react";
 import { createPortal } from "react-dom";
 export function MobileMenu({ onClose }) {
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, []);
   return createPortal(
     <div
       onClick={onClose}
