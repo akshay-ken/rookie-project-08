@@ -4,7 +4,7 @@ import { HeaderSection } from "./HeaderSection";
 
 export function MainPage() {
   return (
-    <main className="px-2 py-4 md:px-[8vw] md:py-[4vw] relative h-screen">
+    <main className="px-2 py-4 md:px-[8vw] md:py-[4vw] relative h-full">
       <HeaderSection />
       <ContentSection />
       <FooterSection />
