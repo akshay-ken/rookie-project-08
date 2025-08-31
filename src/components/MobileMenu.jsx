@@ -21,7 +21,13 @@ export function MobileMenu({ onClose }) {
         <div className="flex flex-row h-fit justify-end">
           <img src={closeIcon} onClick={onClose} alt="" />
         </div>
-        <ul></ul>
+        <ul className="text-3xl text-Very-dark-blue mt-20 h-[40vh] flex flex-col justify-evenly">
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
       </div>
     </div>,
     document.getElementById("menu")
